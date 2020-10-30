@@ -3,6 +3,7 @@ declare module 'react-native-deck-swiper' {
 
   export interface SwiperProps<T> {
     animateCardOpacity?: boolean;
+    disableCardIndexMove?: boolean;
     animateOverlayLabelsOpacity?: boolean;
     backgroundColor?: string;
     cardHorizontalMargin?: number;
